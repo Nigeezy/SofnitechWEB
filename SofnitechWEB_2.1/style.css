@@ -1,0 +1,141 @@
+body{
+	font-family: Arial, "MS Trebuchet" ,sans-serif;
+	text-align: center;
+	background: url(img.jpg);
+	width: 88%;
+	display: block;
+	float: left!important;
+	color: white;
+	left: 0;
+}
+
+article#content{
+	border: 1px solid white;
+	padding: inherit;
+	text-align: center;
+	line-height: 23px;
+	margin-right: 49px;
+	margin-left: 49px;
+	margin-top: 44px;
+	margin-bottom: 44px;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+nav#head_bar ul li a#icons img{
+	border: 1px solid white;
+	padding: 2px;
+	background: rgba(255, 255, 255, 0.35);
+}
+nav#head_bar ul li a#icons img:hover{
+	background: #9c3;
+}
+
+button{
+	padding: 4px 10px 8px;
+    background: rgba(255, 255, 255, 0.35);
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    border:1px solid white;
+    width: 17%;
+}
+button:hover{
+	background: #9c3;
+}
+
+button#sidebuttons{
+	padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.35);
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    border:1px solid white;
+    width: 100%;
+}
+
+button#sidebuttons:hover{
+	background: #9c3;
+}
+
+a{
+	color: white;
+}
+
+h1{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: white;
+}
+
+h1 img#logo{
+	max-width: 320px;
+	border: 0;
+	align-content: center;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	line-height: 34px;
+}
+
+li{
+	line-height: 30px;
+	list-style: none;
+}
+
+nav#sidebar{
+	width:140px;
+	background-color: rgba(0, 0, 0, 0.35);
+	border:1px solid white;
+	padding: 20px 0 0px 0;
+	z-index: 0;
+	position: fixed!important;
+	overflow: auto;
+	right: 0;
+	top: 0;
+	height: 100%;
+	float: right!important;
+}
+
+header#page_header nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#page_header nav ul li, footer#page_footer nav ul li{
+	padding: 0;
+	margin: 0 14px 0 0;
+	display: inline;
+	text-align: center;
+}
+#head_bar{
+	background: rgba(0, 0, 0, 0.35);
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+	padding: 10px;
+	border:1px solid white;
+}
+
+footer#page_footer{
+	clear: both;
+	display: block;
+	margin-top: 5px;
+	padding:  7px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	border: 1px solid white;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+footer#page_footer nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
